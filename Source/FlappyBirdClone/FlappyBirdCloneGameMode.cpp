@@ -6,5 +6,5 @@
 AFlappyBirdCloneGameMode::AFlappyBirdCloneGameMode()
 {
 	// Set default pawn class to our character
-	DefaultPawnClass = AFlappyBirdCloneCharacter::StaticClass();	
+	//DefaultPawnClass = AFlappyBirdCloneCharacter::StaticClass();	
 }
