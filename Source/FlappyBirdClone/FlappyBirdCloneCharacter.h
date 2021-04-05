@@ -40,17 +40,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 	class UPaperFlipbook* IdleAnimation;
 
-	/** Called to choose the correct animation to play based on the character's movement state */
-	//void UpdateAnimation();
-
-	/** Called for side to side input */
-	//void MoveRight(float Value);
-
 	void UpdateCharacter();
-
-	// APawn interface
-	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
-	// End of APawn interface
 
 public:
 	AFlappyBirdCloneCharacter();
