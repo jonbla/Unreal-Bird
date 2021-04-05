@@ -26,20 +26,9 @@ void ABirdPawn::Tick(float DeltaTime)
 }
 
 // Called to bind functionality to input
-void ABirdPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+/*void ABirdPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-}
-
-void ABirdPawn::Flap() {
-	UE_LOG(LogTemp, Warning, TEXT("FLAP FLAP BITCH"));
-}
-
-void ABirdPawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
-{
-	// set up gameplay key bindings
-	check(InputComponent);
-	InputComponent->BindAction("Jump", IE_Pressed, this, &ABirdPawn::Flap);
-}
+}*/
 
